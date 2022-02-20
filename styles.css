@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .nav-bar {
@@ -18,7 +19,7 @@ body {
   left: 0;
   width: 350px;
   height: 100%;
-  background-color: rgba(33, 80, 168, 0.8);
+  background-color: rgba(5, 25, 65, 0.8);
   transform: translateX(-350px);
   transition: transform 0.3s linear;
 }
@@ -94,7 +95,6 @@ main {
   font-weight: bold;
   padding-top: 2.5rem;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (min-width: 768px) {
